@@ -6,8 +6,8 @@ Non responsive CSS table with mimimalist style made with accessibility in mind.
 
 HTML5  
 CSS  
-Fontawesome
-Use of <caption> element to describe the table.
+Fontawesome  
+Use of `<caption>` element to describe the table.
   
 ## How to see it
 
