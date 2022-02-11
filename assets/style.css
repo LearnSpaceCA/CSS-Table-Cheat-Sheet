@@ -1,9 +1,55 @@
+
+header {
+  width:80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-image {
     max-width: 100%;
     width: 150px;
     height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(187, 183, 184));
   }
+
+main {
+  width:80%;
+  margin: auto;
+  min-width: 520px;
+}
 
   table {
     width:100%;
+    border: 1px solid black;
+    padding:1em;
+    
+  }
+
+  caption {
+    margin-bottom: 5px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(235, 232, 232);
+  }
+
+  footer {
+    width:80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+
+  justify-content: center;
+  align-items: center;
+  }
+
+  .fa-github {
+    margin-right: 3px;
+  }
+
+  code {
+      font-family: "Lucida Console", Courier, monospace;
   }
